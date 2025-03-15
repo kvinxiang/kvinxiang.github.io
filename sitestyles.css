@@ -29,15 +29,19 @@
     cursor: pointer;
 }
 
+.blurb{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px;
+    font-size: 18px;
+}
+
 .intro-section{
     display: flex;
     padding: 16px;
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
 }
 
-.intro-blurb{
+.intro-box{
     display: flex;
     flex-direction: column;
 }
@@ -65,4 +69,19 @@
     .intro-section {
       flex-direction: column;
     }
-  }
+}
+
+.project{
+    display: flex;
+    margin: 16px;
+    border-radius: 2px;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.project-media{
+    height: 300px;
+    aspect-ratio: 16/9;
+    margin: 16px;
+}
