@@ -1,8 +1,24 @@
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .header{
     overflow: hidden;
     background-color: #9ecaa0;
     color:rgb(255, 255, 255);
-    padding: 20px 10px;
+    margin: 8px;
+    padding-left: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     display: flex;
@@ -51,6 +67,7 @@
     margin: 8px;
     padding: 8px;
     display: flex;
+    align-items: baseline;
 }
 
 .contact-link {
@@ -59,29 +76,35 @@
     align-items: center;
     color: blue;
     margin-right: 24px;
+    display: flex;
 }
 .contact-button {
     width: 20px;
     border-radius: 2px;
+    margin-right: 2px;
 }
 
 @media (max-width: 800px) {
     .intro-section {
       flex-direction: column;
     }
+
+    .project {
+        flex-direction: column;
+    }
 }
 
 .project{
     display: flex;
-    margin: 16px;
     border-radius: 2px;
     border-color: gainsboro;
     border-style: solid;
     border-width: 1px;
 }
 
+
 .project-media{
-    height: 300px;
+    height: 250px;
     aspect-ratio: 16/9;
     margin: 16px;
 }
