@@ -1,6 +1,6 @@
 .header{
     overflow: hidden;
-    background-color: #90dd93;
+    background-color: #9ecaa0;
     color:rgb(255, 255, 255);
     padding: 20px 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -8,8 +8,8 @@
     display: flex;
 }
 
-.title-block{
-    background-color: black;
+.title-block:hover{
+    cursor: pointer;
 }
 
 .nav-bar{
@@ -22,10 +22,11 @@
 .nav-button{
     padding-left: 8px;
     padding-right: 8px;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    background-color: black;
+    color: white;
+}
+
+.nav-button:hover{
+    cursor: pointer;
 }
 
 .intro-section{
