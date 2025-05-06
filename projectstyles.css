@@ -11,6 +11,13 @@
     height: 300px;
     aspect-ratio: 16/9;
     margin: 16px;
+    object-fit: contain;
+}
+
+.project-image{
+    max-height: 300px;
+    margin: 16px;
+    aspect-ratio: 16/9;
 }
 
 .project-blurb{
